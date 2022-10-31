@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:income_calculator/domain/core/enums.dart';
-import 'package:income_calculator/domain/entities/expense_item/expense_item.dart';
+import 'package:income_calculator/domain/models/expense_item/expense_item.dart';
 import 'package:income_calculator/presentation/widgets/common_dropdown_button.dart';
 import 'package:income_calculator/presentation/widgets/common_input_field.dart';
 import 'package:income_calculator/presentation/widgets/common_text_button.dart';

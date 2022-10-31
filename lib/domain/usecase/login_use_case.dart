@@ -1,6 +1,6 @@
 import 'package:income_calculator/domain/core/data_result.dart';
 import 'package:income_calculator/domain/core/use_case.dart';
-import 'package:income_calculator/domain/entities/login/login_result.dart';
+import 'package:income_calculator/domain/models/login/login_result.dart';
 import 'package:income_calculator/domain/repository/auth_repository.dart';
 
 class LoginUseCase implements UseCase<LoginParams, LoginResult> {

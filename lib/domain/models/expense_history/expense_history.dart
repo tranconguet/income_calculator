@@ -1,5 +1,5 @@
 import 'package:hive/hive.dart';
-import 'package:income_calculator/domain/entities/expense_item/expense_item.dart';
+import 'package:income_calculator/domain/models/expense_item/expense_item.dart';
 
 part 'expense_history.g.dart';
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:income_calculator/domain/core/utils.dart';
-import 'package:income_calculator/domain/entities/expense_item/expense_item.dart';
+import 'package:income_calculator/domain/models/expense_item/expense_item.dart';
 import 'package:income_calculator/presentation/features/home/view/components/expense_section.dart';
 
 class ExpenseSections extends StatelessWidget {

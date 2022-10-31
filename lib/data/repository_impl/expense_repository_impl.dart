@@ -1,8 +1,8 @@
 import 'package:hive/hive.dart';
 import 'package:income_calculator/data/constants.dart';
 import 'package:income_calculator/domain/core/enums.dart';
-import 'package:income_calculator/domain/entities/expense_history/expense_history.dart';
-import 'package:income_calculator/domain/entities/expense_item/expense_item.dart';
+import 'package:income_calculator/domain/models/expense_history/expense_history.dart';
+import 'package:income_calculator/domain/models/expense_item/expense_item.dart';
 import 'package:income_calculator/domain/repository/expense_repository.dart';
 
 class ExpenseRepositoryImpl implements ExpenseRepository {

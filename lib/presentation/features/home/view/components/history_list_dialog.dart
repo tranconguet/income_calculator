@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:income_calculator/domain/core/utils.dart';
-import 'package:income_calculator/domain/entities/expense_history/expense_history.dart';
+import 'package:income_calculator/domain/models/expense_history/expense_history.dart';
 import 'package:income_calculator/presentation/core/utils.dart';
 import 'package:income_calculator/presentation/features/home/view/components/expense_sections.dart';
 import 'package:income_calculator/presentation/features/home/view/components/total_budget_text.dart';

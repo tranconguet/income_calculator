@@ -1,6 +1,6 @@
 import 'package:income_calculator/domain/core/enums.dart';
-import 'package:income_calculator/domain/entities/expense_history/expense_history.dart';
-import 'package:income_calculator/domain/entities/expense_item/expense_item.dart';
+import 'package:income_calculator/domain/models/expense_history/expense_history.dart';
+import 'package:income_calculator/domain/models/expense_item/expense_item.dart';
 
 abstract class ExpenseRepository {
   Future<List<ExpenseItem>> getAllExpenseItems();

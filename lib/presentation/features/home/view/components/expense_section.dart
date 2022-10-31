@@ -1,7 +1,7 @@
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:income_calculator/domain/entities/expense_item/expense_item.dart';
+import 'package:income_calculator/domain/models/expense_item/expense_item.dart';
 import 'package:income_calculator/presentation/features/home/bloc/home_bloc.dart';
 import 'package:income_calculator/presentation/features/home/view/components/expense_card_item.dart';
 

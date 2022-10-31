@@ -2,8 +2,8 @@ import 'package:income_calculator/data/core/exceptions.dart';
 import 'package:income_calculator/data/core/network_connectivity.dart';
 import 'package:income_calculator/data/core/utils.dart';
 import 'package:income_calculator/data/datasource/auth/auth_api.dart';
+import 'package:income_calculator/data/entities/user/user_dto.dart';
 import 'package:income_calculator/data/models/login_response/login_response_dto.dart';
-import 'package:income_calculator/data/models/user/user_dto.dart';
 
 abstract class AuthRemoteDataSource {
   Future<LoginResponseDto> login(String userName, String password);

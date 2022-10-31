@@ -1,6 +1,6 @@
 import 'package:income_calculator/domain/core/enums.dart';
-import 'package:income_calculator/domain/entities/expense_item/expense_item.dart';
-import 'package:income_calculator/domain/entities/expense_section/expense_section.dart';
+import 'package:income_calculator/domain/models/expense_item/expense_item.dart';
+import 'package:income_calculator/domain/models/expense_section/expense_section.dart';
 
 List<ExpenseSection> getExpenseSections() => ExpenseSign.values
     .map((e) => ExpenseSection(sign: e, expenseTypes: e.mapToExpenseTypes(), expenseSectionName: e.mapToString()))

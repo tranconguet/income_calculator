@@ -1,6 +1,6 @@
 import 'package:income_calculator/data/core/hive_service.dart';
 import 'package:income_calculator/data/core/utils.dart';
-import 'package:income_calculator/data/models/user/user_dto.dart';
+import 'package:income_calculator/data/entities/user/user_dto.dart';
 
 abstract class AuthLocalDataSource {
   Future<UserDto> getUserInfo();

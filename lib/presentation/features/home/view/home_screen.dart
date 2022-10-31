@@ -2,10 +2,11 @@ import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:income_calculator/app.dart';
 import 'package:income_calculator/data/constants.dart';
 import 'package:income_calculator/data/repository_impl/expense_repository_impl.dart';
 import 'package:income_calculator/domain/core/enums.dart';
-import 'package:income_calculator/domain/entities/expense_history/expense_history.dart';
+import 'package:income_calculator/domain/models/expense_history/expense_history.dart';
 import 'package:income_calculator/presentation/features/home/bloc/home_bloc.dart';
 import 'package:income_calculator/presentation/widgets/common_dropdown_button.dart';
 import 'package:income_calculator/presentation/widgets/common_input_field.dart';
@@ -26,7 +27,6 @@ class HomeScreen extends StatelessWidget {
         appBar: AppBar(
           title: Row(
             children: [
-              const Text('Income Calculator'),
               const SizedBox(width: 16),
               _ExpandedButton(expandableController: _expandableController),
             ],

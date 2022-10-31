@@ -3,9 +3,9 @@ import 'package:income_calculator/data/datasource/auth/auth_local_datasource.dar
 import 'package:income_calculator/data/datasource/auth/auth_remote_datasource.dart';
 import 'package:income_calculator/data/datasource/auth/mapper/login_result_mapper.dart';
 import 'package:income_calculator/data/datasource/auth/mapper/user_info_mapper.dart';
-import 'package:income_calculator/domain/entities/login/login_result.dart';
 import 'package:income_calculator/domain/core/data_result.dart';
-import 'package:income_calculator/domain/entities/user/user_info.dart';
+import 'package:income_calculator/domain/models/login/login_result.dart';
+import 'package:income_calculator/domain/models/user/user_info.dart';
 import 'package:income_calculator/domain/repository/auth_repository.dart';
 
 class AuthRepositoryImpl implements AuthRepository {

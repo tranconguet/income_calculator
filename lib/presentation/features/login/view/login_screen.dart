@@ -5,7 +5,7 @@ import 'package:income_calculator/data/datasource/auth/mapper/login_result_mappe
 import 'package:income_calculator/data/datasource/auth/mapper/user_info_mapper.dart';
 import 'package:income_calculator/data/repository_impl/auth_repository_impl.dart';
 import 'package:income_calculator/domain/core/data_result.dart';
-import 'package:income_calculator/domain/entities/user/user_info.dart';
+import 'package:income_calculator/domain/models/user/user_info.dart';
 import 'package:income_calculator/domain/repository/auth_repository.dart';
 import 'package:income_calculator/domain/usecase/get_user_info_use_case.dart';
 import 'package:income_calculator/domain/usecase/login_use_case.dart';

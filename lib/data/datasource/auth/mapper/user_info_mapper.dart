@@ -1,6 +1,6 @@
 import 'package:income_calculator/data/core/mapper.dart';
-import 'package:income_calculator/data/models/user/user_dto.dart';
-import 'package:income_calculator/domain/entities/user/user_info.dart';
+import 'package:income_calculator/data/entities/user/user_dto.dart';
+import 'package:income_calculator/domain/models/user/user_info.dart';
 
 class UserInfoMapper extends Mapper<UserDto, UserInfo> {
   @override

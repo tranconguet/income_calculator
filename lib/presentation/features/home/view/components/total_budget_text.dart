@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:income_calculator/domain/core/utils.dart';
-import 'package:income_calculator/domain/entities/expense_history/expense_history.dart';
+import 'package:income_calculator/domain/models/expense_history/expense_history.dart';
 
 class TotalBudgetText extends StatelessWidget {
   const TotalBudgetText({
